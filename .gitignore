@@ -1,0 +1,29 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+/.fleet
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea/**
+!.idea/copyright/**
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+/gradle.properties
+.DS_Store
+
+# Intellij doesn't like to ignore JVM crash files
+*.log

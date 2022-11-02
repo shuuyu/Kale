@@ -1,2 +1,2 @@
 # Kale
-Kale is some random experimental project that I had in mind because brachyura exists
+Why is this project so cancerous to contribute to you ask? Well, I am funny.
