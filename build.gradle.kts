@@ -1,19 +1,14 @@
-plugins {
-    kotlin("jvm")
-    kotlin("plugin.serialization")
-    id("dev.architectury.loom")
-    id("io.github.juuxel.loom-quiltflower")
-    id("com.github.johnrengelman.shadow")
-}
-
 allprojects {
-
-}
-
-dependencies {
-    minecraft("com.mojang:minecraft:1.19.2")
-    mappings("net.fabricmc:yarn:1.19.2+build.28:v2")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.64.0+1.19.2")
-    modImplementation("net.fabricmc:fabric-loader:0.14.10")
-    modImplementation("net.fabricmc:fabric-language-kotlin:1.8.4+kotlin.1.7.20")
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        maven("https://jitpack.io")
+        maven("https://maven.fabricmc.net")
+        maven("https://maven.architectury.dev/")
+        maven("https://maven.minecraftforge.net/")
+        maven("https://maven.terraformersmc.com/")
+        maven("https://maven.quiltmc.org/repository/release")
+        maven("https://repo.essential.gg/repository/maven-public")
+        maven("https://oss.sonatype.org/content/repositories/snapshots")
+    }
 }

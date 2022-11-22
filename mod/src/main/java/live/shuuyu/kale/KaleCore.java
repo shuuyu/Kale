@@ -1,4 +1,4 @@
-package live.shuuyu.kale.core;
+package live.shuuyu.kale;
 
 import net.fabricmc.api.ModInitializer;
 
