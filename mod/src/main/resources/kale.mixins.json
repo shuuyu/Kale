@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_17",
+  "package": "live.shuuyu.kale.mixins",
+  "refmap": "kale.mixins.refmap.json",
+  "mixins": [
+
+  ],
+  "verbose": true,
+  "client": []
+}

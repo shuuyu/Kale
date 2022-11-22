@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "kale",
+  "version": "${version}",
+  "environment": "*",
+  "description": "A generalized mod that provides convenience for the end user.",
+  "authors": [
+    "Yujin/Shuuyu"
+  ],
+  "contact": {
+    "sources": "https://github.com/shuuyu/Euphoria",
+    "issues": "https://github.com/shuuyu/kale/issues"
+  },
+  "license": "",
+
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "live.shuuyu.kale.KaleCore"
+      }
+    ],
+    "modmenu": [
+      "live.shuuyu.kale.modmenu.ModMenuImpl"
+    ]
+  },
+
+  "mixins": [
+    "kale.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-language-kotlin": "1.8.6+kotlin.1.7.21",
+    "minecraft": "1.19.x",
+    "java": "17",
+    "modmenu": "*"
+  }
+}
